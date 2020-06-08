@@ -1,9 +1,14 @@
 body { background-color: chocolate;}
 
-div.login-div {
-padding: 15px;
-border: solid 1px #c0c0c0;
-box-shadow:0 0 2px #777777;
-display: inline-block;
-}
-.login-div input {display: block;margin-bottom: 7px;}
+.Bejelentkezés-div {
+    padding: 15px;
+    border: solid 3px #c0c0c0;
+    box-shadow:0 0 5px #777777;
+    display: inline-block;
+    }
+    .Bejelentkezés-div input {display: block;margin-bottom: 7px;}
+    .Bejelentkezés-div button:hover {box-shadow: 2px 2px 3px rgb(12, 12, 12);}
+    .Bejelentkezés-div input:focus {
+        box-shadow: 2px 2px 2px blue;
+        border: none;
+    }
